@@ -1,4 +1,3 @@
-<img width="725" alt="Screenshot 2024-01-07 at 1 51 54 AM" src="https://github.com/Esther2002-soon/FinalProject_Microprocessor/assets/106828044/21297e03-5da8-4bcb-85e7-96264b31d081"># FinalProject_Microprocessor
 ### 組長: 陳帛愛
 ### 組員: 郭沛蓉、黃友枚、孫以瑭
 
