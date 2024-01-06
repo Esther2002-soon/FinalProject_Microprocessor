@@ -35,3 +35,26 @@
 4. 感測火車，待火車通過後護欄升起：利用紅外線及超音波感測器
 5. 紅綠燈：利用 timer 的設定切換，並透過七段顯示器顯示紅綠燈秒數
 6. 緊急按鈕：利用 interrupt 放下護欄並亮起特殊燈況告知
+
+### 系統開發工具、材料及技術
+- 開發工具、材料: 
+    - PIC18F4520
+    - PICKIT 4
+    - 紅外線障蔽傳感器 MH-B
+    - 七段顯示器 C-583Q-12 BVN-7572SR4
+    - button
+    - LED
+    - server motor
+    - UART
+
+- 系統開發技術
+    - 單元項目
+        - interrupt
+        - timer
+        - UART
+        - server motor
+        - seven segment display
+    - 進階項目 
+        - 紅外線障蔽傳感器
+
+<!-- ### 周邊接口或Library 及API使用說明 -->
