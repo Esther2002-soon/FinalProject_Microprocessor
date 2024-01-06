@@ -49,12 +49,23 @@
 
 - 系統開發技術
     - 單元項目
-        - interrupt
-        - timer
-        - UART
-        - server motor
-        - seven segment display
+        - interrupt (button, infrared ray)
+        - timer 
+        - UART (show state)
+        - ADC (server motor)
+        - PWM (server motor)
     - 進階項目 
         - 紅外線障蔽傳感器
 
-<!-- ### 周邊接口或Library 及API使用說明 -->
+~周邊接口或Library 及API使用說明~
+
+### 實際組員之分工項目
+- 陳帛愛: UART、interrupt、button、傳感器整合、整合系統、測試、製作道具
+- 郭沛蓉: UART、interrupt、button、傳感器整合、整合系統、測試、製作道具
+- 黃友枚: 紅外線傳感器、interrupt、button、傳感器整合、整合系統、測試、製作道具
+- 孫以瑭: 七段顯示器計時、紅綠燈、report製作、測試、製作道具
+  
+### 遇到的困難及如何解決
+
+
+
