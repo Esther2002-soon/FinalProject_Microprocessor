@@ -9,7 +9,7 @@
 ### 系統功能與原理說明
 - 系統功能: 模擬平交道系統，火車經過時護欄關閉，火車離開後護欄打開
 - 原理說明: 利用紅外線，偵測火車是否已經離開，並搭配LED和timer計時並以七段顯示器顯示
-- 利用UART平交道系統狀態
+- 利用UART顯示平交道系統狀態
 
 ### 系統使用環境及對象
 - 系統使用環境: MPLAB v5.20
@@ -23,10 +23,11 @@
 <img width="725" alt="Screenshot 2024-01-07 at 1 51 54 AM" src="https://github.com/Esther2002-soon/FinalProject_Microprocessor/assets/106828044/388dcf71-c4e6-4918-8b2a-e97ed51d99f7">
 
 - 流程圖
-![](https://i.imgur.com/E6PdPs0.png)
+<img width="812" alt="Screenshot 2024-01-07 at 2 11 47 AM" src="https://github.com/Esther2002-soon/FinalProject_Microprocessor/assets/106828044/5b9c9370-7a23-4e0c-baf5-8d29534068a1">
+
 
 - 電路圖
-![](https://i.imgur.com/RLidven.png)
+
 
 - 設計
 1. 通知火車即將抵達：按按鈕後倒數5秒，5秒後火車經過
