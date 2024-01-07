@@ -3,7 +3,7 @@
 ### 組長: 陳帛愛
 ### 組員: 郭沛蓉、黃友枚、孫以瑭
 
-# 平交道模擬系統專題
+# 平交道模擬系統
 ![24068](https://github.com/Esther2002-soon/FinalProject_Microprocessor/assets/106828044/b74f8e01-6957-4345-84b4-dd2ebf67c782)
 
 ### 專題動機
