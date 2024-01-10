@@ -52,20 +52,33 @@
 - 系統開發技術
     - 單元項目
         - interrupt (button, infrared ray)
-        - timer 
+        - timer (timer2 for CCP module)
         - UART (show state)
         - ADC (server motor)
         - PWM (server motor)
     - 進階項目 
         - 紅外線障蔽傳感器
-
-~周邊接口或Library 及API使用說明~
+        - 七段顯示器
+- 系統開發技術各項詳述
+    - timer (timer2 for CCP module)
+    - UART (show state)
+        - 利用UART生成字串警示
+        - Train mode : 開始生成 "start" 結束生成 "stop"
+        - emergency mode : 開始生成 "emergency" 結束生成 "emergency off"
+    - PWM (server motor)
+        - 利用PWM mode 產生方波，控制伺服馬達轉的角度(-90度～0度)
+    - 紅外線障蔽傳感器
+        - 總共有三個接頭左至右為OUTPUT GND VCC
+          <img width="814" alt="Screenshot 2024-01-10 at 3 24 44 PM" src="https://github.com/Esther2002-soon/FinalProject_Microprocessor/assets/106828044/6ba3669a-8b65-419c-9294-51858bfa7811">
+        - OUT接到RB1，0為感測到物體
+    - 七段顯示器 
+        - 紅綠燈之倒數
 
 ### 實際組員之分工項目
-- 陳帛愛: UART、interrupt、button、傳感器整合、整合系統、測試、製作道具
-- 郭沛蓉: UART、interrupt、button、傳感器整合、整合系統、測試、製作道具
-- 黃友枚: 紅外線傳感器、interrupt、button、傳感器整合、整合系統、測試、製作道具
-- 孫以瑭: 七段顯示器計時、紅綠燈、report製作、測試、製作道具
+- 陳帛愛: UART、button、傳感器整合、整合系統、測試、製作道具、report製作
+- 郭沛蓉: UUART、button、傳感器整合、整合系統、測試、製作道具、report製作
+- 黃友枚: 紅外線傳感器、button、傳感器整合、整合系統、測試、製作道具、report製作
+- 孫以瑭: 七段顯示器計時、紅綠燈、report製作整合、測試、製作道具
   
 ### 遇到的困難及如何解決
 - 困難: 多個晶片無法整合溝通
@@ -74,3 +87,7 @@
     - 解決方法: 改成一位數時間倒數
 - 困難: 七段顯示器2.3digit的pin腳資料由於各個型號各異，沒有統一資料
     - 解決方法: 一根一根pin腳測試
+- 困難: 紅外線傳感器故障，無條件感測到物品
+    - 解決方法: 再買一個嗚嗚
+- 困難: 實驗課發放的按鈕在本專題無法使用（但問題並不是按鈕本身壞掉，目前尚未知為何按鈕按下會導致程式中斷）
+    - 解決方法: 經測試發現使用別款按鈕程式可正常執行，因此改放棄原按鈕
