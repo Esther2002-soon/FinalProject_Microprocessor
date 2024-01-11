@@ -29,6 +29,7 @@
 <img width="812" alt="Screenshot 2024-01-07 at 2 11 47 AM" src="https://github.com/Esther2002-soon/FinalProject_Microprocessor/assets/106828044/5b9c9370-7a23-4e0c-baf5-8d29534068a1">
 
 - 電路圖
+![S__2891801](https://github.com/Esther2002-soon/FinalProject_Microprocessor/assets/106828044/25354f50-db39-404f-a1ca-5a02bb496b6a)
 
 - 設計
 1. 通知火車即將抵達：按按鈕後倒數5秒，5秒後火車經過
